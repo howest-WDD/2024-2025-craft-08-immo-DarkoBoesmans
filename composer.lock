@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "64251f41db97e2254bab0974655fe729",
+    "content-hash": "a546dcf8a787d9381b63576102fa5c61",
     "packages": [
         {
             "name": "bacon/bacon-qr-code",
@@ -285,11 +285,11 @@
         },
         {
             "name": "craftcms/cms",
-            "version": "5.5.2",
+            "version": "5.5.3",
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/craftcms/cms/zipball/43dc9cfba1d5ccb1cd0b5da4ff1ab6459db26811",
-                "reference": "43dc9cfba1d5ccb1cd0b5da4ff1ab6459db26811",
+                "url": "https://api.github.com/repos/craftcms/cms/zipball/20199c5340825146f2354d0a29fb694b7d86e400",
+                "reference": "20199c5340825146f2354d0a29fb694b7d86e400",
                 "shasum": ""
             },
             "require": {
@@ -387,7 +387,7 @@
                 "docs": "https://craftcms.com/docs/5.x/",
                 "rss": "https://github.com/craftcms/cms/releases.atom"
             },
-            "time": "2024-11-19T17:17:31+00:00"
+            "time": "2024-11-22T23:29:45+00:00"
         },
         {
             "name": "craftcms/html-field",
@@ -1251,11 +1251,6 @@
         {
             "name": "illuminate/collections",
             "version": "v10.48.24",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/illuminate/collections.git",
-                "reference": "37c863cffb345869dd134eff8e646bc82a19cc96"
-            },
             "dist": {
                 "type": "zip",
                 "url": "https://api.github.com/repos/illuminate/collections/zipball/37c863cffb345869dd134eff8e646bc82a19cc96",
@@ -1285,7 +1280,6 @@
                     "Illuminate\\Support\\": ""
                 }
             },
-            "notification-url": "https://packagist.org/downloads/",
             "license": [
                 "MIT"
             ],
@@ -1297,10 +1291,6 @@
             ],
             "description": "The Illuminate Collections package.",
             "homepage": "https://laravel.com",
-            "support": {
-                "issues": "https://github.com/laravel/framework/issues",
-                "source": "https://github.com/laravel/framework"
-            },
             "time": "2024-06-19T14:25:05+00:00"
         },
         {
@@ -1620,18 +1610,41 @@
         },
         {
             "name": "moneyphp/money",
-            "version": "v4.5.1",
+            "version": "v4.6.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/moneyphp/money.git",
+                "reference": "ddf6a86b574808f8844777ed4e8c4f92a10dac9b"
+            },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/moneyphp/money/zipball/142107bec4870ac2586057dc2fe917d25c92a91e",
-                "reference": "142107bec4870ac2586057dc2fe917d25c92a91e",
+                "url": "https://api.github.com/repos/moneyphp/money/zipball/ddf6a86b574808f8844777ed4e8c4f92a10dac9b",
+                "reference": "ddf6a86b574808f8844777ed4e8c4f92a10dac9b",
                 "shasum": ""
             },
             "require": {
                 "ext-bcmath": "*",
                 "ext-filter": "*",
                 "ext-json": "*",
-                "php": "~8.1.0 || ~8.2.0 || ~8.3.0"
+                "php": "~8.1.0 || ~8.2.0 || ~8.3.0 || ~8.4.0"
+            },
+            "require-dev": {
+                "cache/taggable-cache": "^1.1.0",
+                "doctrine/coding-standard": "^12.0",
+                "doctrine/instantiator": "^1.5.0 || ^2.0",
+                "ext-gmp": "*",
+                "ext-intl": "*",
+                "florianv/exchanger": "^2.8.1",
+                "florianv/swap": "^4.3.0",
+                "moneyphp/crypto-currencies": "^1.1.0",
+                "moneyphp/iso-currencies": "^3.4",
+                "php-http/message": "^1.16.0",
+                "php-http/mock-client": "^1.6.0",
+                "phpbench/phpbench": "^1.2.5",
+                "phpunit/phpunit": "^10.5.9",
+                "psalm/plugin-phpunit": "^0.18.4",
+                "psr/cache": "^1.0.1 || ^2.0 || ^3.0",
+                "vimeo/psalm": "~5.20.0"
             },
             "suggest": {
                 "ext-gmp": "Calculate without integer limits",
@@ -1651,6 +1664,7 @@
                     "Money\\": "src/"
                 }
             },
+            "notification-url": "https://packagist.org/downloads/",
             "license": [
                 "MIT"
             ],
@@ -1676,7 +1690,11 @@
                 "money",
                 "vo"
             ],
-            "time": "2024-09-27T12:04:27+00:00"
+            "support": {
+                "issues": "https://github.com/moneyphp/money/issues",
+                "source": "https://github.com/moneyphp/money/tree/v4.6.0"
+            },
+            "time": "2024-11-22T10:59:03+00:00"
         },
         {
             "name": "monolog/monolog",
@@ -4759,11 +4777,6 @@
         {
             "name": "voku/portable-ascii",
             "version": "2.0.3",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/voku/portable-ascii.git",
-                "reference": "b1d923f88091c6bf09699efcd7c8a1b1bfd7351d"
-            },
             "dist": {
                 "type": "zip",
                 "url": "https://api.github.com/repos/voku/portable-ascii/zipball/b1d923f88091c6bf09699efcd7c8a1b1bfd7351d",
@@ -4772,9 +4785,6 @@
             },
             "require": {
                 "php": ">=7.0.0"
-            },
-            "require-dev": {
-                "phpunit/phpunit": "~6.0 || ~7.0 || ~9.0"
             },
             "suggest": {
                 "ext-intl": "Use Intl for transliterator_transliterate() support"
@@ -4785,7 +4795,6 @@
                     "voku\\": "src/voku/"
                 }
             },
-            "notification-url": "https://packagist.org/downloads/",
             "license": [
                 "MIT"
             ],
@@ -4801,32 +4810,6 @@
                 "ascii",
                 "clean",
                 "php"
-            ],
-            "support": {
-                "issues": "https://github.com/voku/portable-ascii/issues",
-                "source": "https://github.com/voku/portable-ascii/tree/2.0.3"
-            },
-            "funding": [
-                {
-                    "url": "https://www.paypal.me/moelleken",
-                    "type": "custom"
-                },
-                {
-                    "url": "https://github.com/voku",
-                    "type": "github"
-                },
-                {
-                    "url": "https://opencollective.com/portable-ascii",
-                    "type": "open_collective"
-                },
-                {
-                    "url": "https://www.patreon.com/voku",
-                    "type": "patreon"
-                },
-                {
-                    "url": "https://tidelift.com/funding/github/packagist/voku/portable-ascii",
-                    "type": "tidelift"
-                }
             ],
             "time": "2024-11-21T01:49:47+00:00"
         },

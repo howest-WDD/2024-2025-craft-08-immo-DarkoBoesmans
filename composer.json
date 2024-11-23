@@ -22,7 +22,7 @@
   "prefer-stable": true,
   "require": {
     "craftcms/ckeditor": "4.4.0",
-    "craftcms/cms": "5.5.2",
+    "craftcms/cms": "5.5.3",
     "doublesecretagency/craft-mapbox": "2.0.0",
     "nystudio107/craft-vite": "^5.0",
     "vlucas/phpdotenv": "^5.4.0"
